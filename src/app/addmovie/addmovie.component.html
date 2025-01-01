@@ -1,0 +1,29 @@
+<div>
+    <form (ngSubmit)="addMovie()">
+
+        <div>
+            <label for="name">Name</label>
+            <input type="text" [(ngModel)]="add.name" name="name">
+            </div>
+
+            <div>
+                <label for="genere">genere</label>
+                <input type="text" [(ngModel)]="add.genere" name="genere">
+                </div>
+                <div>
+                    <label for="review">Review</label>
+                    <input type="text" [(ngModel)]="add.review" name="review">
+                    </div>
+                    <div>
+                        <label for="budget">Budget</label>
+                        <input type="text" [(ngModel)]="add.budget" name="budget">
+                        </div>
+                        <div>
+                            <label for="tivket_price">Ticket_price</label>
+                            <input type="text" [(ngModel)]="add.ticket_price" name="ticket_price">
+                            </div>
+                            <div>
+                                <button type="submit">submit</button>
+                                </div>
+        </form>
+</div>

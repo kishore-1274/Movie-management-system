@@ -1,0 +1,34 @@
+<div>
+    <form (ngSubmit)="update()">
+
+        <div>
+            <label for="movie_id">Movie_id</label>
+            <input type="text" [(ngModel)]="updatedata.movie_id" name="movie_id">
+        </div>
+    
+        <div>
+            <label for="name">Name</label>
+            <input type="text" [(ngModel)]="updatedata.name" name="name">
+        </div>
+        
+        <div>
+            <label for="genere">genere</label>
+            <input type="text" [(ngModel)]="updatedata.genere" name="genere">
+        </div>
+        <div>
+            <label for="review">Review</label>
+            <input type="text" [(ngModel)]="updatedata.review" name="review">
+        </div>
+        <div>
+            <label for="budget">Budget</label>
+            <input type="text" [(ngModel)]="updatedata.budget" name="budget">
+        </div>
+        <div>
+            <label for="ticket_price">Ticket_price</label>
+            <input type="text" [(ngModel)]="updatedata.ticket_price" name="ticket_price">
+        </div>
+        <div>
+            <button type="submit">updatedata</button>
+        </div>
+        </form>
+</div>
